@@ -1,11 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <link rel="stylesheet" href="design.css">
+   <link rel="stylesheet" href="fonts/remixicon.css">
+    <title>Startsida</title>
 </head>
 <body>
-    fjkgigjobijdpof
+    <header>
+        <h1>Teleborg IF</h1>
+        <img src="Teleborg.png" alt="">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="OmKlubben.html">Om klubben</a></li>
+            <li><a href="#teams">Lag och spelare</a></li>
+            <li><a href="#matches">Matcher och resultat</a></li>
+            <li><a href="#tickets">Biljetter och medlemskap</a></li>
+            <li><a href="#events">Träning och evenemang</a></li>
+            <li><a href="Kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="news">
+        <h2>Startsida</h2>
+        <div class="news-container">
+            <div class="teleborg-news">
+                <h3>Teleborg IF Nyheter</h3>
+                <p>Teleborg IF vinner stort i senaste matchen mot rivalerna Öster IF och tar ledningen i tabellen. Målvakten Jonas Svensson imponerar med en serie av spektakulära räddningar, och anfallaren Maria Andersson gör sitt tionde mål för säsongen.</p>
+            </div>
+            <div class="allsvenska-news">
+                <h3>Allsvenska Lag Nyheter</h3>
+                <p>Ängleholm IF överraskar i Ligan genom att besegra Malmö FF. Mittfältaren Erik Johansson visar upp sin imponerande teknik och bidrar med två vackra assist. Tränaren Anna Karlsson berömmer lagets enastående kämparanda.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="upcoming-match">
+        <h2 id="up">Kommande Matcher</h2>
+        <div class="match-details">
+            <div class="match-info">
+                <h3>Teleborg IF vs Änglehom FC</h3>
+                <p>Datum: 13/12/2023</p>
+                <p>Tid: 17:00</p>
+                <p>Plats: Teleborg IP</p>
+
+                <h3>Malmö FF vs Teleborg IF </h3>
+                <p>Datum: 17/12/2023</p>
+                <p>Tid: 19:00</p>
+                <p>Plats: Elmia Stadion</p>
+            </div>
+            <div class="league-table">
+                <h3 id="allsven">Allsvenskan Tabell</h3>
+                <!-- Tabell över ligan här -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Lag</th>
+                            <th>Spelade Matcher</th>
+                            <th>Vinster</th>
+                            <th>Oavgjorda</th>
+                            <th>Förluster</th>
+                            <th>Poäng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Fyll i med data för varje lag -->
+                        <tr>
+                            <td>1</td>
+                            <td>Teleborg IF</td>
+                            <td>30</td>
+                            <td>20</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>64</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Malmö FF</td>
+                            <td>30</td>
+                            <td>21</td>
+                            <td>2</td>
+                            <td>8</td>
+                            <td>62</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Öster IF</td>
+                            <td>30</td>
+                            <td>17</td>
+                            <td>3</td>
+                            <td>10</td>
+                            <td>57</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Änglehom FC</td>
+                            <td>30</td>
+                            <td>17</td>
+                            <td>1</td>
+                            <td>11</td>
+                            <td>56</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Värnamo FF</td>
+                            <td>30</td>
+                            <td>15</td>
+                            <td>5</td>
+                            <td>10</td>
+                            <td>52</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Ingelstad FK</td>
+                            <td>30</td>
+                            <td>11</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Teleborg IF. Alla rättigheter förbehållna.</p>
+    </footer>
 </body>
 </html>
