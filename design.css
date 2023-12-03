@@ -60,7 +60,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    
+
 }
 
 .navbar ul a,
@@ -149,13 +149,15 @@ thead tr {
     align-items: center;
     flex-wrap: wrap;
 }
-.historia h2{
+
+.historia h2 {
     padding: 6px;
     text-align: left;
 }
+
 .historia {
     text-align: left;
-    
+
 }
 
 #Pokal {
@@ -165,33 +167,34 @@ thead tr {
     margin-left: 800px;
 }
 
-.section2{
+.section2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.värdegrund h2{
+.värdegrund h2 {
     padding: 6px;
     text-align: left;
 }
- .värdegrund{
+
+.värdegrund {
     text-align: left;
     margin-bottom: 70px;
- }
+}
 
- .Teams h2{
+.Teams h2 {
     text-align: left;
     padding: 5px;
     text-align: center;
 }
 
-.Teams table{
+.Teams table {
     margin-left: 34%;
 }
 
-.Teams table thead{
+.Teams table thead {
     background-color: #004080;
     color: #fff;
 }
@@ -203,7 +206,7 @@ td {
     border-bottom: 1px solid #ddd;
 }
 
-.Teams td a{
+.Teams td a {
     text-decoration: none;
     color: #000;
 }
@@ -220,9 +223,9 @@ td {
 thead tr {
     transition: background-color 0.3s ease;
 }
- 
- 
- .Elite h2 {
+
+
+.Elite h2 {
     text-align: center;
     padding: 10px
 }
@@ -231,16 +234,16 @@ thead tr {
     text-align: center;
 }
 
-.Elite h3{
+.Elite h3 {
     text-align: center;
     padding: 4px
 }
 
-.Elite table{
+.Elite table {
     margin-left: 32%;
 }
 
-.Elite table thead{
+.Elite table thead {
     background-color: #004080;
     color: #fff;
 }
@@ -266,21 +269,36 @@ thead tr {
     transition: background-color 0.3s ease;
 }
 
-#taktik{
+#taktik {
     height: 250px;
     border-radius: 8px;
     margin-left: 43.5%;
-    
+
 }
 
+#a {
+    height: 250px;
+    border-radius: 8px;
+    margin-left: 32%;
+}
 
+#b {
+    height: 250px;
+    border-radius: 8px;
+    margin-left: 32%;
+}
 
+#c {
+    height: 250px;
+    border-radius: 8px;
+    margin-left: 32%;
+}
 
 .upcomingM h2 {
     padding: 10px
 }
 
-.upcomingM table thead{
+.upcomingM table thead {
     background-color: #004080;
     color: #fff;
 }
@@ -310,7 +328,7 @@ thead tr {
     padding: 10px
 }
 
-.TidigareR table thead{
+.TidigareR table thead {
     background-color: #004080;
     color: #fff;
 }
@@ -336,31 +354,58 @@ thead tr {
     transition: background-color 0.3s ease;
 }
 
-.Tickets p{
+.Tickets p {
     padding: 5px;
 }
 
-.Tickets h2{
-padding: 10px;
-}
-
-.Tickets button{
-margin-top: 20px;
-margin-left: 20px;
-}
-
-.Medlemskap h2{
+.Tickets h2 {
     padding: 10px;
-    }
-    
-    .Medlemskap p {
-        padding: 5px;
-    }
-    
-    .Medlemskap button{
+}
+
+.Tickets button {
     margin-top: 20px;
     margin-left: 20px;
-    }
+}
+
+.Medlemskap h2 {
+    padding: 10px;
+}
+
+.Medlemskap p {
+    padding: 5px;
+}
+
+.Medlemskap button {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Training p {
+    padding: 5px;
+}
+
+.Training h2 {
+    padding: 10px;
+}
+
+.Training button {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Events h2 {
+    padding: 10px;
+}
+
+.Events p {
+    padding: 5px;
+}
+
+.Events button {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 
 #Tränare {
     margin-left: auto;
