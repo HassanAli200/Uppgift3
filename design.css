@@ -1,17 +1,23 @@
-/* Återställ standardmarginaler och padding på sidan */
-body, h1, h2, p, ul {
+body,
+h1,
+h2,
+p,
+ul {
     margin: 0;
 }
 
 body {
-    background-color: #e6f7ff; /* ljusblå */
-    color: #000; /* svart */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Valfri typsnitt */
+    background-color: #e6f7ff;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #004080; /* mörkblå */
-    color: #fff; /* vit */
+    background-color: #004080;
+    color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -19,15 +25,16 @@ header {
 }
 
 header img {
-    height: 70px; 
+    height: 70px;
+    margin-right: 36%;
 }
 
 header h1 {
-    margin-left: 44%; 
+    margin-left: 43%;
 }
 
 .navbar {
-    background-color: #3399ff; 
+    background-color: #3399ff;
     height: 4vh;
 }
 
@@ -39,28 +46,31 @@ header h1 {
 
 .navbar ul a {
     text-decoration: none;
-    color: black; 
+    color: black;
     padding: 10px;
 }
 
 section {
     padding: 20px;
+    flex: 1;
 }
 
 footer {
-    background-color: #004080; /* mörkblå */
-    color: #fff; /* vit */
+    background-color: #004080;
+    color: #fff;
     text-align: center;
     padding: 10px;
+    
 }
 
-.navbar ul a, footer p {
+.navbar ul a,
+footer p {
     transition: color 0.3s ease;
 }
 
-/* Hover-effekt för länkar */
-.navbar ul a:hover, footer p:hover {
-    color: #e6f7ff; /* ljusblå */
+.navbar ul a:hover,
+footer p:hover {
+    color: #e6f7ff;
     font-weight: bold;
 }
 
@@ -70,18 +80,19 @@ footer {
     flex-wrap: wrap;
 }
 
-.teleborg-news, .allsvenska-news {
+#Start {
+    text-align: center;
+}
+
+.teleborg-news,
+.allsvenska-news {
     flex: 1;
     margin: 10px;
 }
 
-.teleborg-news h3, .allsvenska-news h3 {
-    color: #004080; /* mörkblå */
-}
-
-/* Styla tabellen i den andra sektionen */
-#upcoming-match {
-    padding: 20px;
+.teleborg-news h3,
+.allsvenska-news h3 {
+    color: #004080;
 }
 
 .match-details {
@@ -89,66 +100,95 @@ footer {
     justify-content: space-around;
 }
 
-.match-info, .league-table {
+.match-info,
+.league-table {
     flex: 1;
     margin: 10px;
 }
 
-/* Styla matchinformationen */
-.match-info h3, .league-table h3 {
-    color: #004080; /* mörkblå */
+.match-info h3,
+.league-table h3 {
+    color: #004080;
 }
 
-.match-info p {
-    margin: 5px 0;
-}
-
-table {
+.league-table table {
     width: 100%;
-    border-collapse: separate;
+    border-collapse: collapse;
     margin-top: 10px;
 }
 
-thead {
-    background-color: #004080; /* mörkblå */
-    color: #fff; /* vit */
+.league-table thead {
+    background-color: #004080;
+    color: #fff;
 }
 
-th, td {
+.league-table th,
+td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd; /* ljusgrå linje mellan varje rad */
+    border-bottom: 1px solid #ddd;
 }
 
-/* Använd olika bakgrundsfärger för jämna och udda rader för bättre läsbarhet */
-tbody tr:nth-child(even) {
-    background-color: beige; /* ljusgrå */
+
+.league-table tbody tr:nth-child(even) {
+    background-color: beige;
 }
 
-tbody tr:hover {
-    background-color: #e6f7ff; /* ljusblå */
+.league-table tbody tr:hover {
+    background-color: #e6f7ff;
 }
 
-/* Lägg till övergångseffekt för hover */
-tbody tr, thead tr {
+.league-table tbody tr,
+thead tr {
     transition: background-color 0.3s ease;
 }
 
-#allsven{
-    margin-left: 41%;
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.historia h2{
+    padding: 6px;
+    text-align: left;
+}
+.historia {
+    text-align: left;
+    
 }
 
-#up{
-    margin-left: 1%;
+#Pokal {
+    height: 170px;
+    border-radius: 8px;
+    margin-top: -100px;
+    margin-left: 800px;
 }
 
-#Tränare{
-    height: 200px;
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.värdegrund h2{
+    padding: 6px;
+    text-align: left;
+}
+ .värdegrund{
+    text-align: left;
+    margin-bottom: 70px;
+ }
+
+#Tränare {
     margin-left: auto;
     margin-top: auto;
+    padding-top: 5px;
+    height: 130px;
 }
 
-#Contactinfo{
+#Contactinfo {
     display: flex;
     justify-content: space-between;
 }
@@ -162,8 +202,8 @@ tbody tr, thead tr {
     margin-right: 34%;
 }
 
-.Kontaktformulär h2 a{
-color: #000;
+.Kontaktformulär h2 a {
+    color: #000;
 }
 
 .Kontaktformulär form {
@@ -176,13 +216,14 @@ color: #000;
     font-weight: bold;
 }
 
-.Kontaktformulär input, textarea {
+.Kontaktformulär input,
+textarea {
     width: 100%;
     padding: 8px;
-   
+
 }
 
-button {
+.Kontaktformulär button {
     background-color: #004080;
     color: #fff;
     padding: 10px;
@@ -190,20 +231,15 @@ button {
     width: fit-content;
 }
 
-button:hover {
+.Kontaktformulär button:hover {
     background-color: #00264d;
 }
-.Socialmedia{
+
+.Socialmedia {
     padding-top: 4px;
 }
 
-.Socialmedia p a{
+.Socialmedia p a {
     color: #000;
-    
-}
 
-#Tränare{
-    padding-top: 5px;
-    height: 130px;
-    
 }
