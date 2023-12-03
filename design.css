@@ -181,6 +181,66 @@ thead tr {
     margin-bottom: 70px;
  }
 
+.upcomingM h2 {
+    padding: 10px
+}
+
+.upcomingM table thead{
+    background-color: #004080;
+    color: #fff;
+}
+
+.upcomingM table th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.upcomingM table tbody tr:nth-child(even) {
+    background-color: beige;
+}
+
+.upcomingM table tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+.upcomingM table tbody tr,
+thead tr {
+    transition: background-color 0.3s ease;
+}
+
+.TidigareR h2 {
+    padding: 10px
+}
+
+.TidigareR table thead{
+    background-color: #004080;
+    color: #fff;
+}
+
+.TidigareR table th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.TidigareR table tbody tr:nth-child(even) {
+    background-color: beige;
+}
+
+.TidigareR table tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+.TidigareR table tbody tr,
+thead tr {
+    transition: background-color 0.3s ease;
+}
+
 #Tränare {
     margin-left: auto;
     margin-top: auto;
