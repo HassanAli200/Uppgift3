@@ -12,15 +12,21 @@
 <body>
     <header>
         <h1>Teleborg IF</h1>
-        <img src="Teleborg.png" alt="">
+        <img src="Teleborg1.jpg" alt="">
     </header>
 
     <div class="navbar">
         <ul>
             <li><a href="index.html">Startsida</a></li>
             <li><a href="OmKlubben.html">Om klubben</a></li>
-            <li><a href="teams.html">Lag och spelare</a></li>
-            <li><a href="matches.html">Matcher och resultat</a></li>
+            <li class="dropdown">
+                <a href="teams.html">Lag och spelare</a>
+                <div class="dropdown-content">
+                    <a href="P21.html">P21-lag</a>
+                    <a href="P19.html">P19-lag</a>
+                    <a href="P17.html">P17-lag</a>
+                </div>
+              <li><a href="matches.html">Matcher och resultat</a></li>
             <li><a href="Biljetter.html">Biljetter och medlemskap</a></li>
             <li><a href="träning.html">Träning och evenemang</a></li>
             <li><a href="Kontakt.html">Kontakt</a></li>
@@ -29,34 +35,13 @@
 
     </div>
 
-    <section>
-        <div class="Teams">
-            <h2>Andra Lag</h2>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Lag</th>
-                        <th>Information</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>P21</td>
-                        <td><a href="P21.html">Information om P21-Truppen. Tryck för att checka.</a></td>
-                    </tr>
-                    <tr>
-                        <td>P19</td>
-                        <td><a href="P19.html">Information om P19-Truppen. Tryck för att checka.</a></td>
-                    </tr>
-                    <tr>
-                        <td>P17</td>
-                        <td><a href="P17.html">Information om P17-Truppen. Tryck för att checka.</a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+    <div class="local-menu">
+        <ul>
+            <li><a href="P21.html">P21</a></li>
+            <li><a href="P19.html">P19</a></li>
+            <li><a href="P17.html">P17</a></li>
+        </ul>
+    </div>
 
 
 
@@ -134,7 +119,7 @@
                 </tbody>
             </table>
             <h3>Spelplan/Taktik</h3>
-            <img id="taktik" src="taktikboard.webp" alt="">
+            <img id="taktik" src="taktikboard.png" alt="">
 
         </div>
     </section>
